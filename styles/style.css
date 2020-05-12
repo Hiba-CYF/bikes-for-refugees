@@ -67,7 +67,9 @@ button {
 .jumbotron {
 	border-radius: 0;
 }
-
+.jumbotron button{
+	background: green;
+}
 /* Headings */
 .heading-underline {
 	position: relative;
@@ -137,5 +139,16 @@ button {
 
 	.navbar-brand > img {
 	   max-height: 80px;
+	}
+}
+@media screen and (max-width:320px)
+{
+	h1{
+		color: #ce5f31;
+		font-size: 25px;
+	}
+	.jumbotron button{
+		max-width: 40%;
+		background: #ce5f31;
 	}
 }

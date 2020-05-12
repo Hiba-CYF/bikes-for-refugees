@@ -22,11 +22,13 @@ button {
 }
 
 .navbar-light .navbar-toggler {
+	
 	border: 0;
 	right:  0;
 }
 
 .navbar-light .navbar-nav .nav-link {
+
 	color: #292b2c;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -65,10 +67,38 @@ button {
 
 /* Jumbotron */
 .jumbotron {
+	/* background-color: chartreuse; */
 	border-radius: 0;
 }
 .jumbotron button{
 	background: green;
+}
+.boxes-container{
+	background-color: cyan;
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+	
+
+}
+.box{
+	/* text-align: center; */
+	border: 2px solid black;
+	/* padding: 4%; */
+	flex-direction: column;
+
+}
+
+.box p{
+
+	width: 80%; 
+	text-align: center;
+	margin: 6%;
+	padding: 4%;
+}
+
+
+border: 2px solid black;
 }
 /* Headings */
 .heading-underline {
